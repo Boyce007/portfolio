@@ -2,7 +2,7 @@ import React from 'react'
 import ContactInfoElement from '../components/ContactInfoElement'
 import { FaLinkedin } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
-
+import { Outlet } from 'react-router-dom';
 const ContactInfo = () => {
   return (
     <div>
@@ -21,6 +21,8 @@ const ContactInfo = () => {
         icon={<FaLinkedin size={20} color="#0A66C2" />}
         />
       </div>
+
+      <Outlet/>
     </div>
   )
 }
