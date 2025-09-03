@@ -11,14 +11,14 @@ const ContactInfo = () => {
 
       <div class='contact-info'>
         <a>daniel.boyce35@gmail.com</a>
-        <ContactInfoElement href="https://github.com/Boyce007"
+        <ContactInfoElement url="https://github.com/Boyce007"
         text="Github"
         icon={<FaGithub size={20} />}
         />
         <ContactInfoElement 
-        href="https://www.linkedin.com/in/daniel-i-boyce-b6395a241" 
+        url="https://www.linkedin.com/in/daniel-i-boyce-b6395a241" 
         text="LinkedIn"
-        icon={<FaLinkedin size={20} />}
+        icon={<FaLinkedin size={20} color="#0A66C2" />}
         />
       </div>
     </div>
